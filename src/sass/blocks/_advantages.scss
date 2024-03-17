@@ -35,6 +35,11 @@
       margin-top: 20px;
       font-size: 14px;
       font-weight: 300;
+
+      span {
+        color: red;
+        text-decoration: underline;
+      }
     }
   }
 }
