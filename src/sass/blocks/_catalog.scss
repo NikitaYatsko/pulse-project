@@ -61,7 +61,7 @@
       display: block;
       margin: 0 auto;
       max-width: 100%;
-      height: 140px;
+      height: 200px;
     }
 
     &_subtitle {
@@ -80,11 +80,39 @@
 
     }
 
-    .catalog-item_link {
+    &_link {
+      margin-top: 10px;
+
+      display: block;
       text-align: center;
       text-decoration: underline;
       text-transform: uppercase;
       color: red;
+    }
+
+    hr {
+      margin-top: 17px;
+      margin-bottom: 17px;
+      background: rgb(232, 232, 232);
+    }
+
+    &_wrapper {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+    }
+    &_price{
+      color: rgb(5, 5, 5);
+      font-size: 20px;
+      font-weight: 700;
+    }
+    &_oldprice {
+      font-size: 14px;
+      font-weight: 300;
+      text-align: left;
+      text-decoration-line: line-through;
+      color: rgb(85, 85, 85);
     }
   }
 }
