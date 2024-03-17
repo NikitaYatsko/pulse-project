@@ -17,10 +17,17 @@
     font-size: 16px;
     margin-top: 80px;
   }
-  &_submit{
+
+  &_submit {
     width: 100%;
     height: 55px;
     border-radius: 5px;
     font-size: 16px;
+  }
+
+  &_buy {
+    width: 135px;
+    height: 44px;
+    font-size: 14px;
   }
 }
